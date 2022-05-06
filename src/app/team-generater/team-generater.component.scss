@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+.team-gen-wrapper {
+  font-family: "Roboto Flex", sans-serif;
+  border: 1px solid #dddd;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  .card {
+    h3 {
+      text-align: center;
+      margin-bottom: 10px ;
+    }
+    .list {
+      padding: 20px;
+    //   height: 100px;
+      border: 1px solid #ddd;
+      list-style: none;
+      margin-bottom: 10px;
+      li {
+          a {
+            font-family: "Roboto Flex", sans-serif;
+
+          }
+      }
+    }
+    .add-member-container {
+      width: 500px;
+      input {
+        margin-bottom: 10px;
+        width: 478px;
+        padding: 10px;
+        outline: none;
+        border: 1px solid #ddd;
+      }
+      button {
+        padding: 10px;
+        width: 100%;
+        border: none;
+        background: #333;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:hover {
+            background: #222;
+        }
+      }
+    }
+    .generate-wrapper {
+        input {
+        margin-bottom: 10px;
+        width: 478px;
+        padding: 10px;
+        outline: none;
+        border: 1px solid #ddd;
+      }
+      button {
+        padding: 10px;
+        width: 100%;
+        border: none;
+        background: rgb(12, 185, 6);
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:hover {
+            background: rgb(10, 151, 5);
+        }
+      }
+    }
+  }
+}
+.teams-container {
+    .team-container {
+        
+        .ls-team {
+            list-style: none;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+    }
+}

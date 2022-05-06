@@ -7,6 +7,12 @@ import { AppComponent } from './app.component';
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';
 import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+import { HomeComponent } from './home/home.component';
+import { GoldenComponent } from './golden/golden.component';
+import { CatComponent } from './cat/cat.component';
+import { HuskieComponent } from './huskie/huskie.component';
+import { TeamGeneraterComponent } from './team-generater/team-generater.component';
+
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -14,7 +20,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
 };
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent, GoldenComponent, CatComponent, HuskieComponent, TeamGeneraterComponent],
   imports: [BrowserModule, AppRoutingModule, SwiperModule],
   providers: [
     {

@@ -1,0 +1,27 @@
+<header>
+    <nav>
+        <ul>
+            <li><a href="" [routerLink]="['/cat']" routerLinkActive="active">Cats</a></li> 
+            <li><a href="" [routerLink]="['/huskie']" routerLinkActive="active">Huskies</a></li>
+            <li><a href="" [routerLink]="['/golden']" routerLinkActive="active">Golden</a></li>
+            <li><a href="" [routerLink]="['/team-generater']" routerLinkActive="active">Team Generater</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="swiper-container">
+    <swiper [config]="config">
+        <div>
+            <img src="../../assets/slider1.jpeg" alt="" width="100%">
+        </div>
+        <div>
+            <img src="../../assets/slider2.jpeg" alt="" width="100%">
+        </div>
+        <div>
+            <img src="../../assets/slider3.jpeg" alt="" width="100%">
+        </div>
+        <div>
+            <img src="../../assets/slider4.jpeg" alt="" width="100%">
+        </div>
+    </swiper>
+</div>
+
